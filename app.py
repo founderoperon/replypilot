@@ -41,14 +41,14 @@ HTML = """
 {{ request.form.email if request.form else "" }}</textarea>
 <br><br>
 
-        <label>Toon:</label>
+        <label>Tone:</label>
         <select name="tone">
             <option>friendly</option>
 <option>formal</option>
 <option>direct</option>
         </select>
 
-        <label>Doel:</label>
+        <label>Goal:</label>
         <select name="goal">
             <option>inform</option>
 <option>sell</option>
