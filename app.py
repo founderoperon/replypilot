@@ -56,11 +56,11 @@ HTML = """
         </select>
 
         <br><br>
-        <button type="submit">Genereer antwoord</button>
+        <button type="submit">Generate answer</button>
     </form>
 
     {% if answer %}
-        <h2>AI Antwoord</h2>
+        <h2>AI Answer</h2>
         <textarea rows="8" cols="80">{{ answer }}</textarea>
     {% endif %}
 </body>
